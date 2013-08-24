@@ -13,6 +13,7 @@ Extract "topics" from a given text
    - We attempt to group different spellings of the same topic ("Google Nexus S" == "GOOGLE Nexus S")
    - We try to identify possible duplicates ("Google NEXUS" is a possible duplicate of "Google Nexus S") 
    - Topics get a "clean" name by measuring the number of occurrences only - for now
+   - Sorting of Topics in the Corpus should probably not be made this way if you have a lot of data
    
   
   - Architecture
