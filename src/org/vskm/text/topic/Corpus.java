@@ -38,7 +38,7 @@ public class Corpus {
 
 	public void extractTopics() {
 		// TODO: fix limit of 200 
-		for (File file : files.subList(400, 800)) {
+		for (File file : files.subList(0, 200)) {
 			// System.out.println("Extracting: " + file.getAbsolutePath());
 
 			// Extract the text topics
